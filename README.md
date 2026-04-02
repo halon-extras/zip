@@ -35,7 +35,7 @@ echo $x->toString(["password" => "12345678"]);
 ```
 
 #### addFile(name, data)
-Add a file to the ZIP archive options. On error a exception is thrown.
+Add a file to the ZIP archive options. On error an exception is thrown.
 
 **Params**
 
@@ -47,7 +47,7 @@ Add a file to the ZIP archive options. On error a exception is thrown.
 **Return type**: `ZIP`
 
 #### toString([options])
-Return the ZIP file as a string. On error a exception is thrown.
+Return the ZIP file as a string. On error an exception is thrown.
 
 **Params**
 
@@ -55,7 +55,7 @@ Return the ZIP file as a string. On error a exception is thrown.
 
 The following options are available in the options array.
 
-- password `string` - If the password should be encrypted (AES256)
+- password `string` - A password if the file should be encrypted (AES256)
 
 **Returns**: zip data
 
