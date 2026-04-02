@@ -47,7 +47,7 @@ Add a file to the ZIP archive options. On error a exception is thrown.
 **Return type**: `ZIP`
 
 #### toString([options])
-Return the ZIP file as a stirng. On error a exception is thrown.
+Return the ZIP file as a string. On error a exception is thrown.
 
 **Params**
 
