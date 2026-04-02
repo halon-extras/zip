@@ -1,0 +1,50 @@
+[
+    {
+        "name": "ZIP",
+        "instantiable": true,
+        "parameters": {
+            "required": [],
+            "optional": []
+        },
+        "methods": [
+            {
+                "name": "addFile",
+                "parameters": {
+                    "required": [
+                        {
+                            "name": "name",
+                            "type": "string"
+                        },
+                        {
+                            "name": "data",
+                            "type": "string"
+                        }
+                    ],
+                    "optional": []
+                },
+                "returnType": "ZIP",
+                "detail": "ZIP->addFile(string $name, any $data): ZIP",
+                "value": "addFile($0)",
+                "documentation": "Add a file to the ZIP. On error an exception is thrown.",
+                "link": "[Full documentation](https://github.com/halon-extras/zip)"
+            },
+            {
+                "name": "toString",
+                "parameters": {
+                    "required": [],
+                    "optional": [
+                        {
+                            "name": "options",
+                            "type": "array"
+                        }
+                    ]
+                },
+                "returnType": "string",
+                "detail": "ZIP->toString([array $options]): string",
+                "value": "toString()",
+                "documentation": "Return ZIP as string. On error an exception is thrown.",
+                "link": "[Full documentation](https://github.com/halon-extras/zip)"
+            }
+        ]
+    }
+]

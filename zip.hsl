@@ -1,0 +1,6 @@
+import { ZIP } from "extras://zip";
+
+$x = ZIP();
+$x->addFile("foo/test.txt", "hello");
+$x->addFile("foo/test2.txt", "world");
+echo $x->toString(["password" => "test"]);
