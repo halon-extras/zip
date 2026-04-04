@@ -18,6 +18,12 @@ apt-get install halon-extras-zip
 yum install halon-extras-zip
 ```
 
+### Azure Linux
+
+```
+tdnf install -y halon-extras-zip
+```
+
 ## Exported classes
 
 These classes needs to be [imported](https://docs.halon.io/hsl/structures.html#import) from the `extras://zip` module path.
