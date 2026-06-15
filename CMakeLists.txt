@@ -73,6 +73,8 @@ ENDIF()
 INSTALL(FILES "${CMAKE_CURRENT_BINARY_DIR}/zip.so.link" DESTINATION plugins/autoload/smtpd RENAME zip.so)
 INSTALL(FILES "${CMAKE_CURRENT_BINARY_DIR}/zip.so.link" DESTINATION plugins/autoload/hsh RENAME zip.so)
 
+INSTALL(FILES "LICENSE" DESTINATION share/doc/plugins/zip)
+
 SET(CMAKE_INSTALL_PREFIX "/opt/halon")
 SET(CPACK_PACKAGING_INSTALL_PREFIX "/opt/halon")
 
